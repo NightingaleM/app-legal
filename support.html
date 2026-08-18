@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Support — Crazy Brick Ball / 疯狂砖球</title>
+<style>
+  :root{
+    --bg:#0f1220; --panel:#171b2e; --ink:#e7e9f3; --muted:#9aa0bd;
+    --accent:#6ea8ff; --line:#2a304d;
+  }
+  *{box-sizing:border-box}
+  html{ -webkit-text-size-adjust:100%; }
+  body{
+    margin:0; background:var(--bg); color:var(--ink);
+    font:16px/1.7 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC","Microsoft YaHei",sans-serif;
+    padding:24px 16px 64px;
+  }
+  .wrap{ max-width:760px; margin:0 auto; }
+  header{ border-bottom:1px solid var(--line); padding-bottom:18px; margin-bottom:24px; }
+  h1{ font-size:1.7rem; margin:0 0 6px; }
+  .app{ color:var(--accent); font-weight:700; }
+  .meta{ color:var(--muted); font-size:.92rem; }
+  .langs{ margin:18px 0 0; display:flex; gap:8px; }
+  .langs button{
+    appearance:none; border:1px solid var(--line); background:transparent;
+    color:var(--muted); padding:7px 14px; border-radius:999px; cursor:pointer; font-size:.9rem;
+  }
+  .langs button.on{ background:var(--accent); color:#0b1020; border-color:var(--accent); font-weight:600; }
+  h2{ font-size:1.18rem; margin:26px 0 8px; color:#fff; }
+  p,li{ margin:0 0 10px; }
+  .qa{ margin:0 0 16px; }
+  .qa .q{ color:#fff; font-weight:600; margin-bottom:4px; }
+  .qa .a{ color:var(--ink); }
+  .lang{ display:none; } .lang.on{ display:block; }
+  a{ color:var(--accent); }
+  .contact{
+    background:var(--panel); border:1px solid var(--line); border-radius:10px;
+    padding:16px 18px; margin-top:8px;
+  }
+  .contact a{ font-size:1.05rem; }
+  footer{ margin-top:28px; padding-top:18px; border-top:1px solid var(--line); color:var(--muted); font-size:.85rem; }
+  @media (max-width:520px){ h1{ font-size:1.4rem; } body{ font-size:15px; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="app">Crazy Brick Ball · 疯狂砖球</div>
+    <h1 id="title">Support</h1>
+    <div class="meta" id="sub">Help &amp; frequently asked questions</div>
+    <div class="langs" role="tablist">
+      <button class="on" data-lang="en" role="tab">English</button>
+      <button data-lang="zh" role="tab">中文</button>
+    </div>
+  </header>
+
+  <!-- EN -->
+  <div class="lang on" id="en">
+    <h2>Contact</h2>
+    <div class="contact">
+      📧 <a href="mailto:1097591296@qq.com">1097591296@qq.com</a>
+    </div>
+    <p id="ct-intro">Found a bug, have an idea, or need a hand? Email us and we'll get back to you.</p>
+
+    <h2>FAQ</h2>
+
+    <div class="qa"><div class="q">Is the game free?</div>
+      <div class="a">Yes. This launch version is completely free, with <strong>no ads and no in-app purchases</strong> &mdash; just download and play.</div></div>
+
+    <div class="qa"><div class="q">Does the game upload any of my data?</div>
+      <div class="a">No. The game is fully offline. All your progress and settings stay on your device and are never transmitted anywhere. See our <a href="privacy.html">Privacy Policy</a>.</div></div>
+
+    <div class="qa"><div class="q">How do I erase my progress?</div>
+      <div class="a">Uninstalling the app removes all game data from your device.</div></div>
+
+    <div class="qa"><div class="q">Will you add ads or in-app purchases later?</div>
+      <div class="a">Future updates may introduce optional, non-intrusive ads and purchases (for example, a one-time &ldquo;remove ads&rdquo; option). The core game will always stay free to enjoy.</div></div>
+
+    <div class="qa"><div class="q">The game feels slow / a ball got stuck / something looks wrong.</div>
+      <div class="a">Please email us with a short description (and a screenshot if you can). Telling us your device model and iOS version helps a lot.</div></div>
+  </div>
+
+  <!-- ZH -->
+  <div class="lang" id="zh">
+    <h2>联系方式</h2>
+    <div class="contact">
+      📧 <a href="mailto:1097591296@qq.com">1097591296@qq.com</a>
+    </div>
+    <p id="ct-intro-zh">发现 bug、有想法、或需要帮助?发邮件给我们,我们会尽快回复。</p>
+
+    <h2>常见问题</h2>
+
+    <div class="qa"><div class="q">这游戏免费吗?</div>
+      <div class="a">免费。本次首发版本完全免费,<strong>无广告、无内购</strong>,下载即玩。</div></div>
+
+    <div class="qa"><div class="q">游戏会上传我的数据吗?</div>
+      <div class="a">不会。游戏完全单机,所有进度与设置只保存在你的设备上,绝不外传。详见我们的<a href="privacy.html">隐私政策</a>。</div></div>
+
+    <div class="qa"><div class="q">怎么清除我的进度?</div>
+      <div class="a">卸载应用即可删除设备上的全部游戏数据。</div></div>
+
+    <div class="qa"><div class="q">以后会加广告或内购吗?</div>
+      <div class="a">后续更新可能会加入可选的、不打扰体验的广告与内购(例如一次性的「去广告」选项)。核心玩法将始终免费畅玩。</div></div>
+
+    <div class="qa"><div class="q">游戏卡顿 / 球卡住了 / 画面不对。</div>
+      <div class="a">请发邮件简单描述问题(最好附截图),并告知你的设备型号与 iOS 版本,会非常有帮助。</div></div>
+  </div>
+
+  <footer>
+    Crazy Brick Ball · 疯狂砖球 &mdash; Support (2026-08-04)
+  </footer>
+</div>
+
+<script>
+  var btns = document.querySelectorAll('.langs button');
+  var map = {
+    en:{ t:'Support', s:'Help & frequently asked questions' },
+    zh:{ t:'支持', s:'帮助与常见问题' }
+  };
+  function setLang(l){
+    document.getElementById('en').classList.toggle('on', l==='en');
+    document.getElementById('zh').classList.toggle('on', l==='zh');
+    btns.forEach(function(b){ b.classList.toggle('on', b.dataset.lang===l); });
+    document.getElementById('title').textContent = map[l].t;
+    document.getElementById('sub').textContent = map[l].s;
+    document.documentElement.lang = l==='en' ? 'en' : 'zh-CN';
+  }
+  btns.forEach(function(b){ b.addEventListener('click', function(){ setLang(b.dataset.lang); }); });
+</script>
+</body>
+</html>
