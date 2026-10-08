@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Support — Winnow: Swipe to Keep</title>
+<meta name="description" content="Support and FAQ for Winnow, a photo cleanup app.">
+<style>
+  :root{
+    --bg:#0f1220; --panel:#171b2e; --ink:#e7e9f3; --muted:#9aa0bd;
+    --accent:#6ea8ff; --line:#2a304d;
+  }
+  *{box-sizing:border-box}
+  html{ -webkit-text-size-adjust:100%; }
+  body{
+    margin:0; background:var(--bg); color:var(--ink);
+    font:16px/1.7 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC","Microsoft YaHei",sans-serif;
+    padding:24px 16px 64px;
+  }
+  .wrap{ max-width:760px; margin:0 auto; }
+  header{ border-bottom:1px solid var(--line); padding-bottom:18px; margin-bottom:24px; }
+  h1{ font-size:1.7rem; margin:0 0 6px; }
+  .app{ color:var(--accent); font-weight:700; }
+  .meta{ color:var(--muted); font-size:.92rem; }
+  .langs{ margin:18px 0 0; display:flex; gap:8px; }
+  .langs button{
+    appearance:none; border:1px solid var(--line); background:transparent;
+    color:var(--muted); padding:7px 14px; border-radius:999px; cursor:pointer;
+    font-size:.9rem;
+  }
+  .langs button.on{ background:var(--accent); color:#0b1020; border-color:var(--accent); font-weight:600; }
+  section{ margin:0 0 22px; }
+  h2{ font-size:1.18rem; margin:0 0 8px; color:#fff; }
+  p,li{ margin:0 0 10px; color:var(--ink); }
+  ul{ padding-left:1.2em; }
+  .lang{ display:none; }
+  .lang.on{ display:block; }
+  a{ color:var(--accent); }
+  footer{ margin-top:28px; padding-top:18px; border-top:1px solid var(--line); color:var(--muted); font-size:.85rem; }
+  @media (max-width:520px){ h1{ font-size:1.4rem; } body{ font-size:15px; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="app">Winnow: Swipe to Keep</div>
+    <h1 id="title">Support</h1>
+    <div class="meta">
+      <span id="eff">Frequently asked questions</span>
+    </div>
+    <div class="langs" role="tablist">
+      <button class="on" data-lang="en" role="tab">English</button>
+      <button data-lang="zh" role="tab">中文</button>
+    </div>
+  </header>
+
+  <!-- ============ ENGLISH ============ -->
+  <div class="lang on" id="en">
+
+    <section>
+      <h2>Where do deleted photos go?</h2>
+      <p>Photos you confirm for deletion are moved to the system &ldquo;Recently Deleted&rdquo; album and stay recoverable for 30 days. Winnow never permanently erases a photo on its own &mdash; the final step is always a review list you control.</p>
+    </section>
+
+    <section>
+      <h2>How do I start a cleanup?</h2>
+      <p>Four ways: from your oldest photos (the default), the last 100 photos, a random 100, or a custom selection where you hand-pick photos by month.</p>
+    </section>
+
+    <section>
+      <h2>I&rsquo;m left-handed. Can I swap the gestures?</h2>
+      <p>Yes. In Settings you can swap the keep direction between right and left; the delete (up) and later (down) gestures stay fixed.</p>
+    </section>
+
+    <section>
+      <h2>Why do some iCloud photos look blurry?</h2>
+      <p>If you use iCloud Photos with &ldquo;Optimize Storage&rdquo;, only low-resolution copies may be on the device. You can enable &ldquo;iCloud Originals Loading&rdquo; in Settings to load your own originals from Apple iCloud for sharper display. Wi-Fi is recommended. Even with this on, nothing is collected or uploaded &mdash; see our Privacy Policy.</p>
+    </section>
+
+    <section>
+      <h2>Does Winnow upload my photos?</h2>
+      <p>No. All processing happens on your device. There is no account, no sign-in, and no server. See the Privacy Policy for details.</p>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p>Questions, feedback, or problems? Email <a href="mailto:nightingalercoy@gmail.com">nightingalercoy@gmail.com</a> &mdash; we read everything.</p>
+    </section>
+
+  </div>
+
+  <!-- ============ 中文 ============ -->
+  <div class="lang" id="zh">
+
+    <section>
+      <h2>删除的照片去哪了?</h2>
+      <p>您确认删除的照片会被移入系统"最近删除"相簿,30 天内可恢复。Winnow 绝不会自行永久抹除照片 —— 最后一步永远是一份由您逐项复核的确认清单。</p>
+    </section>
+
+    <section>
+      <h2>怎么开始一次清理?</h2>
+      <p>四种方式:从最老的照片开始(默认)、清理最近 100 张、随机 100 张,或在自定义选择中按月份手动挑选。</p>
+    </section>
+
+    <section>
+      <h2>我是左撇子,手势能换吗?</h2>
+      <p>可以。在设置中可把"保留"方向在左/右之间互换;"待删"(上滑)与"待处理"(下滑)固定不变。</p>
+    </section>
+
+    <section>
+      <h2>为什么有些 iCloud 照片看着模糊?</h2>
+      <p>如果您开启了 iCloud 照片的"优化储存空间",设备上可能只存有低分辨率版本。可在设置中开启"iCloud 原图加载",从 Apple iCloud 加载您自己的原图以获得更清晰的显示,建议在 Wi-Fi 下进行。即使开启,也不会收集或上传任何数据 —— 详见隐私政策。</p>
+    </section>
+
+    <section>
+      <h2>Winnow 会上传我的照片吗?</h2>
+      <p>不会。所有处理都在您的设备上完成。没有账号、无需登录、没有服务器。详见隐私政策。</p>
+    </section>
+
+    <section>
+      <h2>联系我们</h2>
+      <p>有问题、反馈或建议?发邮件到 <a href="mailto:nightingalercoy@gmail.com">nightingalercoy@gmail.com</a> —— 每封我们都会读。</p>
+    </section>
+
+  </div>
+
+  <footer>
+    Winnow: Swipe to Keep &mdash; Support
+  </footer>
+</div>
+
+<script>
+  // 语言切换
+  var btns = document.querySelectorAll('.langs button');
+  var titleEn = 'Support', titleZh = '支持与常见问题';
+  var effEn = 'Frequently asked questions', effZh = '常见问题解答';
+  function setLang(l){
+    document.getElementById('en').classList.toggle('on', l==='en');
+    document.getElementById('zh').classList.toggle('on', l==='zh');
+    btns.forEach(function(b){ b.classList.toggle('on', b.dataset.lang===l); });
+    document.getElementById('title').textContent = l==='en' ? titleEn : titleZh;
+    document.getElementById('eff').textContent = l==='en' ? effEn : effZh;
+    document.documentElement.lang = l==='en' ? 'en' : 'zh-CN';
+  }
+  btns.forEach(function(b){ b.addEventListener('click', function(){ setLang(b.dataset.lang); }); });
+</script>
+</body>
+</html>

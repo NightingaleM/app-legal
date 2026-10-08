@@ -9,6 +9,8 @@
 |---|---|---|
 | **Crazy Brick Ball / 疯狂砖球** | 隐私政策 | https://nightingalem.github.io/app-legal/privacy.html |
 | | 支持页 | https://nightingalem.github.io/app-legal/support.html |
+| **Winnow: Swipe to Keep** (照片清理) | 隐私政策 | https://nightingalem.github.io/app-legal/winnow/privacy.html |
+| | 支持页 | https://nightingalem.github.io/app-legal/winnow/support.html |
 | *(后续项目)* | 每项目一个子目录 | `.../app-legal/<项目名>/privacy.html` |
 
 ## 🔴 钉死约束(勿动)
